@@ -203,7 +203,7 @@
             </div>
 
             <div style="text-align: center;">
-                <a href="#especies" class="species-link">🌱 ¡Te invitamos a conocer las especies! 🌱</a>
+                <button onclick="showSpecies()" class="species-link" style="border: none; cursor: pointer;">🌱 ¡Te invitamos a conocer las especies! 🌱</button>
             </div>
 
             <div class="leaf-decoration">🍃 🍃 🍃</div>
@@ -300,8 +300,148 @@ La corteza del Chañar, las espinas del Espinillo y la estructura del Romerillo 
 
         <div class="leaf-decoration">🌿 🦋 🐝 🌺</div>
     </div>
+<!-- Sección Especies -->
+        <div id="especies-section" class="section">
+            <button class="back-button" onclick="showMain()">← Volver</button>
+            
+            <h2 style="text-align: center; color: #2d5016; margin-bottom: 30px; font-size: 2em;">🌿 Flora Nativa 🌿</h2>
+            
+            <div class="species-grid">
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Blanquillo')"></div>
+                    <div class="species-info">
+                        <h3>Blanquillo</h3>
+                        <p class="scientific-name">(Sebastiania commersoniana)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Chañar')"></div>
+                    <div class="species-info">
+                        <h3>Chañar</h3>
+                        <p class="scientific-name">(Geoffroea decorticans)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Cina+cina')"></div>
+                    <div class="species-info">
+                        <h3>Cina cina</h3>
+                        <p class="scientific-name">(Parkinsonia aculeata)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Croton')"></div>
+                    <div class="species-info">
+                        <h3>Croton</h3>
+                        <p class="scientific-name">(Croton subpannosus)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Espina+Colorada')"></div>
+                    <div class="species-info">
+                        <h3>Espina Colorada</h3>
+                        <p class="scientific-name">(Solanum sisymbriifolium)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Espinillo')"></div>
+                    <div class="species-info">
+                        <h3>Espinillo</h3>
+                        <p class="scientific-name">(Acacia caven)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Lagaña+de+perro')"></div>
+                    <div class="species-info">
+                        <h3>Lagaña de perro</h3>
+                        <p class="scientific-name">(Erythrostemon gilliesii)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Malva')"></div>
+                    <div class="species-info">
+                        <h3>Malva</h3>
+                        <p class="scientific-name">(Abutilon grandifolium)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Palo+Amarillo')"></div>
+                    <div class="species-info">
+                        <h3>Palo Amarillo</h3>
+                        <p class="scientific-name">(Aloysia gratissima)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Pasionaria')"></div>
+                    <div class="species-info">
+                        <h3>Pasionaria</h3>
+                        <p class="scientific-name">(Passiflora caerulea)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Romerillo')"></div>
+                    <div class="species-info">
+                        <h3>Romerillo</h3>
+                        <p class="scientific-name">(Baccharis aliena)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Sacha+Huasca')"></div>
+                    <div class="species-info">
+                        <h3>Sacha Huasca</h3>
+                        <p class="scientific-name">(Dolichandra cynanchoides)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Sangre+de+toro')"></div>
+                    <div class="species-info">
+                        <h3>Sangre de toro</h3>
+                        <p class="scientific-name">(Rivina humilis)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Santa+Lucía')"></div>
+                    <div class="species-info">
+                        <h3>Santa Lucía</h3>
+                        <p class="scientific-name">(Commelina erecta)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Tumiñico')"></div>
+                    <div class="species-info">
+                        <h3>Tumiñico</h3>
+                        <p class="scientific-name">(Lycium cestroides)</p>
+                    </div>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Verbena+roja')"></div>
+                    <div class="species-info">
+                        <h3>Verbena roja o Margarita punzó</h3>
+                        <p class="scientific-name">(Glandularia peruviana)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="leaf-decoration">🌿 🦋 🐝 🌺</div>
+    </div>
 
     <script>
+        
         function showSeason(season) {
             // Ocultar sección principal
             document.getElementById('main-section').classList.remove('active');
@@ -332,10 +472,22 @@ La corteza del Chañar, las espinas del Espinillo y la estructura del Romerillo 
             // Scroll al inicio
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+
+        function showSpecies() {
+            // Ocultar sección principal
+            document.getElementById('main-section').classList.remove('active');
+            
+            // Mostrar sección de especies
+            document.getElementById('especies-section').classList.add('active');
+            
+            // Scroll al inicio
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     </script>
 </body>
 
 </html>
+
 
 
 
