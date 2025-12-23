@@ -218,6 +218,57 @@
             font-size: 1em;
         }
 
+        .species-detail {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .species-detail h2 {
+            color: #2d5016;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .species-detail .scientific-name {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .species-detail .description {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .species-detail .info-box {
+            background: #f1f8e9;
+            border-left: 4px solid #6b9d4a;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .species-detail .info-box h4 {
+            color: #2d5016;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .species-detail .info-box p {
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .reference {
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+            margin-top: 15px;
+        }
+
         @media (max-width: 600px) {
             .seasons-grid {
                 grid-template-columns: 1fr;
@@ -243,7 +294,7 @@
         <!-- Sección Principal -->
         <div id="main-section" class="section active">
             <div class="intro">
-                <p><strong>Nuestro Paseo del Centro</strong> además de ser una obra de gran envergadura a los fines de regular las escorrentías pluviales del casco céntrico, tiene como objetivo ser un espacio recreativo, cultural y natural realzando características propias de nuestra Reserva Hídrica Recreativa Natural Los Quebrachitos.</p>
+                <p><strong>Nuestro Paseo del Centro</strong> además de ser una obra de gran envergadura a los fines de regular las escorrentías pluviales del casco céntrico, tiene como objetivo ser un espacio recreativo, cultural y natural realzando características propias de nuestra Reserva Hídrica Recreativa Natural Los Quebrachitos.</p>               
                 
                 <p>Herbáceas, trepadoras, arbustivas, gramíneas y arbóreas cumplen una función fundamental en la regulación de suelo, del agua, la purificación del aire, potenciando las condiciones para la presencia de mariposas, abejas, colibríes y demás polinizadores de la zona.</p>
             </div>
@@ -252,8 +303,10 @@
                 <button onclick="showSpecies()" class="species-link" style="border: none; cursor: pointer;">🌱 ¡Te invitamos a conocer las especies! 🌱</button>
             </div>
 
+            <div class="leaf-decoration">🍃 🍃 🍃</div>
             <p style="text-align: center; color: #2d5016; margin: 30px auto; line-height: 1.8; font-size: 1.1em; max-width: 600px; font-family: 'Georgia', 'Garamond', serif; font-style: italic;">Cada visita es distinta: el paseo se transforma con las estaciones y el paisaje se pinta de nuevos colores.</p>
 
+            <h2 style="text-align: center; color: #2d5016; margin: 30px 0;">¿En qué estación estás?</h2>
             <div class="leaf-decoration">🍃 🍃 🍃</div>
 
             <div class="seasons-grid">
@@ -261,14 +314,17 @@
                     <span class="season-icon">🌸</span>
                     <div class="season-name">Primavera</div>
                 </div>
+
                 <div class="season-card" onclick="showSeason('verano')">
                     <span class="season-icon">☀️</span>
                     <div class="season-name">Verano</div>
                 </div>
+
                 <div class="season-card" onclick="showSeason('otono')">
                     <span class="season-icon">🍂</span>
                     <div class="season-name">Otoño</div>
                 </div>
+
                 <div class="season-card" onclick="showSeason('invierno')">
                     <span class="season-icon">❄️</span>
                     <div class="season-name">Invierno</div>
@@ -331,11 +387,11 @@
         <!-- Sección Especies -->
         <div id="especies-section" class="section">
             <button class="back-button" onclick="showMain()">← Volver</button>
-            
+
             <h2 style="text-align: center; color: #2d5016; margin-bottom: 30px; font-size: 2em;">🌿 Flora Nativa 🌿</h2>
-            
+
             <div class="species-grid">
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('blanquillo')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Blanquillo')"></div>
                     <div class="species-info">
                         <h3>Blanquillo</h3>
@@ -343,7 +399,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('chanar')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Chañar')"></div>
                     <div class="species-info">
                         <h3>Chañar</h3>
@@ -351,7 +407,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('cinacina')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Cina+cina')"></div>
                     <div class="species-info">
                         <h3>Cina cina</h3>
@@ -359,7 +415,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('croton')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Croton')"></div>
                     <div class="species-info">
                         <h3>Croton</h3>
@@ -367,7 +423,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('espinacolorada')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Espina+Colorada')"></div>
                     <div class="species-info">
                         <h3>Espina Colorada</h3>
@@ -375,15 +431,15 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('espinillo')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Espinillo')"></div>
                     <div class="species-info">
                         <h3>Espinillo</h3>
-                        <p class="scientific-name">(Acacia caven)</p>
+                        <p class="scientific-name">(Vachellia caven)</p>
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('laganadeperro')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Lagaña+de+perro')"></div>
                     <div class="species-info">
                         <h3>Lagaña de perro</h3>
@@ -391,7 +447,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('malva')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Malva')"></div>
                     <div class="species-info">
                         <h3>Malva</h3>
@@ -399,7 +455,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('paloamarillo')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Palo+Amarillo')"></div>
                     <div class="species-info">
                         <h3>Palo Amarillo</h3>
@@ -407,7 +463,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('pasionaria')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Pasionaria')"></div>
                     <div class="species-info">
                         <h3>Pasionaria</h3>
@@ -415,7 +471,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('romerillo')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Romerillo')"></div>
                     <div class="species-info">
                         <h3>Romerillo</h3>
@@ -423,7 +479,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('sachahuasca')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Sacha+Huasca')"></div>
                     <div class="species-info">
                         <h3>Sacha Huasca</h3>
@@ -431,7 +487,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('sangredetoro')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Sangre+de+toro')"></div>
                     <div class="species-info">
                         <h3>Sangre de toro</h3>
@@ -439,7 +495,7 @@
                     </div>
                 </div>
 
-                <div class="species-card">
+                <div class="species-card" onclick="showSpeciesDetail('santalucia')">
                     <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Santa+Lucía')"></div>
                     <div class="species-info">
                         <h3>Santa Lucía</h3>
@@ -447,21 +503,37 @@
                     </div>
                 </div>
 
-                <div class="species-card">
-                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Tumiñico')"></div>
+                <div class="species-card" onclick="showSpeciesDetail('tala')">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/6b9d4a/ffffff?text=Tala')"></div>
+                    <div class="species-info">
+                        <h3>Tala</h3>
+                        <p class="scientific-name">(Celtis tala)</p>
+                    </div>
+                </div>
+
+                <div class="species-card" onclick="showSpeciesDetail('tuminico')">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Tumiñico')"></div>
                     <div class="species-info">
                         <h3>Tumiñico</h3>
                         <p class="scientific-name">(Lycium cestroides)</p>
                     </div>
                 </div>
 
-                <div class="species-card">
-                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/4a7c2c/ffffff?text=Verbena+roja')"></div>
+                <div class="species-card" onclick="showSpeciesDetail('verbenaroja')">
+                    <div class="species-image" style="background-image: url('https://via.placeholder.com/300x200/5d8c3a/ffffff?text=Verbena+roja')"></div>
                     <div class="species-info">
-                        <h3>Verbena roja o Margarita punzó</h3>
+                        <h3>Verbena roja</h3>
                         <p class="scientific-name">(Glandularia peruviana)</p>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Sección Detalle de Especie -->
+        <div id="species-detail-section" class="section">
+            <button class="back-button" onclick="showSpecies()">← Volver a especies</button>
+            <div id="species-detail-content" class="species-detail">
+                <!-- El contenido se llenará dinámicamente con JavaScript -->
             </div>
         </div>
 
@@ -469,48 +541,147 @@
     </div>
 
     <script>
-        function showSeason(season) {
-            // Ocultar sección principal
-            document.getElementById('main-section').classList.remove('active');
-            
-            // Ocultar todas las secciones de estaciones
-            document.getElementById('primavera-section').classList.remove('active');
-            document.getElementById('verano-section').classList.remove('active');
-            document.getElementById('otono-section').classList.remove('active');
-            document.getElementById('invierno-section').classList.remove('active');
-            
-            // Mostrar la estación seleccionada
-            document.getElementById(season + '-section').classList.add('active');
-            
-            // Scroll al inicio
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        function showMain() {
-            // Ocultar todas las secciones de estaciones
-            document.getElementById('primavera-section').classList.remove('active');
-            document.getElementById('verano-section').classList.remove('active');
-            document.getElementById('otono-section').classList.remove('active');
-            document.getElementById('invierno-section').classList.remove('active');
-            document.getElementById('especies-section').classList.remove('active');
-            
-            // Mostrar sección principal
-            document.getElementById('main-section').classList.add('active');
-            
-            // Scroll al inicio
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        function showSpecies() {
-            // Ocultar sección principal
-            document.getElementById('main-section').classList.remove('active');
-            
-            // Mostrar sección de especies
-            document.getElementById('especies-section').classList.add('active');
-            
-            // Scroll al inicio
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    </script>
-</body>
-</html>
+        const speciesData = {
+            blanquillo: {
+                name: "Blanquillo",
+                scientificName: "Sebastiania commersoniana",
+                description: "También llamado Palo de leche o Guindillo. De sus heridas abiertas exuda un látex blanco, de consistencia lechosa, de dónde le viene su nombre vulgar. Crece a la vera de ríos y arroyos, y en las quebradas húmedas. La hoja del Guindillo es simple con borde ligeramente aserrado, en otoño y en invierno, las hojas se tiñen de mil tonos de rojos, naranjas y amarillos. Cada rama termina con una espina por punta. Las flores del Blanquillo están agrupadas en racimos, son amarillentas y diminutas. El Fruto es una cápsula globosa de color castaño a la madurez.",
+                pollination: "Es polinizada por insectos.",
+                flowering: "Florece en primavera y verano.",
+                medicinal: "Es utilizado como antiséptico de uso externo y para aliviar dolores."
+            },
+            chanar: {
+                name: "Chañar",
+                scientificName: "Geoffroea decorticans",
+                description: "Árbol pequeño a mediano, de 6 a 10 m de altura. La característica más distintiva es su corteza exfoliante, la cuál se va desprendiendo en láminas parduscas, que dejan a la vista la nueva corteza verde brillante y de tonos intermedios, entre naranjas y amarillos. Raíces gemíferas (generan brotes que permiten a la planta crear bosquecitos alrededor). Flores perfectas en racimos amarillas con estrías anaranjadas, vistosas y perfumadas. El fruto es una baya globosa lisa y brillante, anaranjado rojizo en la madurez y dulce. De fruto comestible, de los cuáles se extrae el famoso arrope.",
+                pollination: "Es polinizada por mariposas y en especial por abejas.",
+                flowering: "Florece en la primavera.",
+                medicinal: "Utilizado para afecciones respiratorias, para la tos y antiasmático."
+            },
+            cinacina: {
+                name: "Cina cina",
+                scientificName: "Parkinsonia aculeata",
+                description: "Árbol de hasta 8 m de altura, semicaducifolio, de fuste corto y copa aparasolada. Sus ramas algo zigzagueantes son verdes y se van agrietando mientras maduran, tienen tres espinas por nudo. Las flores son hermafroditas, de cinco pétalos, de los cuales cuatro son amarillos y uno, el superior, medio rojizo. El fruto es una legumbre, dura de hasta 10 cm de largo, algo curva, persiste bastante en la planta y se abre al madurar. Hay pocas semillas por frutos. Su chaucha y semillas son comestibles cuando están inmaduras. Es nativa del norte cordobés, no de nuestra ecorregión.",
+                pollination: "Es polinizada por abeja, moscas, avispas y mariposas.",
+                flowering: "Florece principalmente en primavera y verano.",
+                medicinal: "Tiene propiedades contra la tos y la fiebre.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            },
+            croton: {
+                name: "Croton",
+                scientificName: "Croton subpannosus",
+                description: "Subarbusto de hasta 1,5m de altura, predominante en el sotobosque serrano. Densamente pubescente (peludo). Las flores son blanquecinas y están dispuestas en racimos. El fruto es una cápsula. Las hojas viejas toman una coloración anaranjada y persisten un tiempo en la planta.",
+                pollination: "Es polinizada por principalmente mariposas y abejas.",
+                flowering: "Florece desde octubre hasta mayo.",
+                medicinal: "Es utilizada para afecciones respiratorias y como purgante.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            },
+            espinacolorada: {
+                name: "Espina Colorada",
+                scientificName: "Solanum sisymbriifolium",
+                description: "Hierba perenne de hasta 1 m de altura de tallo leñoso con ramas cubierta de pelos, caracterizada por poseer espinas punzantes, pardas claras, recubriendo tallo, ramas y hojas. Flores azuladas a blancas con centro amarillo. El fruto es una baya globosa roja carnosa. Los frutos maduros son comestibles.",
+                pollination: "Polinizada por abejas y abejorros.",
+                flowering: "Florece de septiembre hasta diciembre.",
+                medicinal: "La raíz es utilizada contra inflamaciones hepáticas y de riñones. Externamente como antiinflamatorio y analgésico."
+            },
+            espinillo: {
+                name: "Espinillo",
+                scientificName: "Vachellia caven",
+                description: "Arbusto o árbol espinoso de hasta 6 m de altura y 20-40 cm de ancho de tronco. La copa es más o menos hemisférica. Fruto en forma de vaina de 4-10cm de largo de sección cilíndrica con el extremo punzante. Flores amarillo anaranjadas muy pequeñas y perfumadas. Especie pionera, colonizadora de suelos deteriorados, es muy buena como recuperadora de la tierra.",
+                pollination: "Es polinizado por abejas nativas, moscas y otros insectos. Hospedera de mariposa danzarina chica y frotadora menor sangrante.",
+                flowering: "Florece de agosto a septiembre. Puede tener segundas floraciones tardías (diciembre a enero).",
+                medicinal: "Poder antiséptico. Utilizado para afecciones de garganta y boca. También para problemas respiratorios.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            },
+            laganadeperro: {
+                name: "Lagaña de perro",
+                scientificName: "Erythrostemon gilliesii",
+                description: "Arbusto de hasta 2 m de alto perenne con hojas bipinnadas. Las flores se encuentran en racimos, cada flor con cinco pétalos amarillos con 10 estambres rojos largos y llamativos. Las vainas están densamente cubiertas de pelos glandulares cortos y rojos.",
+                pollination: "Es polinizada por mariposas nocturnas por sus singulares flores amarillas con largos estambres. Otros insectos buscan su néctar, pero no las polinizan.",
+                flowering: "Florece de noviembre hasta febrero.",
+                medicinal: "Para tratar fiebres, heridas y tos."
+            },
+            malva: {
+                name: "Malva",
+                scientificName: "Abutilon grandifolium",
+                description: "Esta especie tiene valor ornamental, con flores que permanecen varios días abiertas. Sus hojas acorazonadas de gran tamaño están cubiertas de tricomas o pelos que le confieren gran suavidad al tacto.",
+                pollination: "Atrae a pequeños escarabajos para su polinización y sus flores son visitadas por mariposas. La especie es hospedera de la mariposa 'Festoneada menor'.",
+                flowering: "Florece de primavera a otoño.",
+                medicinal: "Es utilizada para problemas respiratorios y digestivos."
+            },
+            paloamarillo: {
+                name: "Palo Amarillo",
+                scientificName: "Aloysia gratissima",
+                description: "Arbusto aromático de 1-3 m de altura. Las flores son blancas y se disponen en espigas multiflorales. Sus hojas pueden variar de tamaño y forma, según las condiciones y etapa de crecimiento. Frecuente en las serranías cordobesas.",
+                pollination: "Sus flores muy perfumadas son polinizadas por pequeñas mariposas nocturnas y por la mariposa cuatro ojos (Junonia genoveva). También por avispas, abejas y moscas.",
+                flowering: "Florece de septiembre a marzo.",
+                medicinal: "Se destaca por sus propiedades digestivas y regulador de presión arterial.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            },
+            pasionaria: {
+                name: "Pasionaria",
+                scientificName: "Passiflora caerulea",
+                description: "Enredadera perenne, arbustiva, trepadora de hasta 10m de largo. Sus flores son solitarias y en la corona posee filamentos que son azul en el extremo y la base, y blancas en el centro. El fruto es una baya anaranjada comestible. Prefiere sitios más bien húmedos en bosques o zonas urbanas.",
+                pollination: "Es polinizada por abejorros, abejas y mariposas. La mariposa espejito usa a la planta para poner sus larvas (hospedera).",
+                flowering: "Florece de septiembre a junio.",
+                medicinal: "Aplaca estados de ansiedad e insomnio.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            },
+            romerillo: {
+                name: "Romerillo",
+                scientificName: "Baccharis aliena",
+                description: "Su nombre común es Romerillo ya que presenta un aspecto similar al popular Romero. Es una planta dioica, es decir, hay plantas femeninas y plantas masculinas. Arbustos de 1 a 5 m de altura muy ramificado. Hojas lineares, agudas en el ápice, enteras en el margen, uninervias. Produce abundante floración de color amarillo. Es una especie a tener en cuenta como restauradora de suelos.",
+                pollination: "Es polinizada por abejas, moscas y avispas.",
+                flowering: "Florece entre septiembre y marzo.",
+                medicinal: "Se le atribuyen propiedades medicinales, antialérgicas y antigripales."
+            },
+            sachahuasca: {
+                name: "Sacha Huasca",
+                scientificName: "Dolichandra cynanchoides",
+                description: "Enredadera que crece apoyada sobre árboles de porte mediano y grande del Bosque Serrano. Perenne de tronco grueso y corteza rugosa. Flores solitarias tubulares bilabiadas, levemente curvas de color rojo intenso. El fruto es una cápsula negro-rojiza, lisa alargada.",
+                pollination: "Es polinizada por picaflores, en especial por el picaflor verde común y el picaflor de barbijo. También por la mariposa limonera grande (Heraclides thoas).",
+                flowering: "Florece de octubre hasta abril.",
+                medicinal: "Se utiliza principalmente como tónico y para tratar variedad de dolencias, incluyendo problemas digestivos, dolores musculares y como afrodisíaco."
+            },
+            sangredetoro: {
+                name: "Sangre de toro",
+                scientificName: "Rivina humilis",
+                description: "Planta comúnmente herbácea, con hojas alternas, simples. Las flores son pequeñas, perfectas y se disponen en racimos o espigas. El fruto es variable pero frecuentemente es una baya globosa de color rojo intenso. Planta muy ramificada, típica del sotobosque, requiere sombra para su desarrollo. Las flores son blancas o rosadas y se disponen en racimos largos.",
+                pollination: "Es polinizada por pequeños insectos como abejas y mariposas.",
+                flowering: "Florece de octubre a mayo.",
+                medicinal: "Se utiliza en el tratamiento de resfriados y diarrea."
+            },
+            santalucia: {
+                name: "Santa Lucía",
+                scientificName: "Commelina erecta",
+                description: "Hierba perenne de hasta 50cm de altura. Hojas simples, alternas y ovaladas. Posee flores perfectas azules muy vistosas, con centro amarillo, abren por la mañana y viven sólo unas pocas horas. El fruto es una cápsula. En Córdoba crece a la sombra húmeda del bosque serrano y espinal.",
+                pollination: "Es polinizada por abejas.",
+                flowering: "Florece desde noviembre hasta abril.",
+                medicinal: "Colirio por excelencia. Descongestivo ocular.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            },
+            tala: {
+                name: "Tala",
+                scientificName: "Celtis tala",
+                description: "Planta arbórea o arbustiva dotado de fuertes espinas (aunque no son de gran tamaño). Es uno de los protagonistas principales de los espinales. De follaje caduco, porte irregular y ramas zigzagueantes, alcanza entre 4 y 12 metros de altura. Su rusticidad lo convierte en una especie extraordinariamente resistente. Las flores son de color verde amarillento y son bastante pequeñas. Las hojas son ovaladas con punta aguda con pocos dientes sobre el margen; los frutos dulces y comestibles son consumidos por aves que dispersan las semillas.",
+                pollination: "Es polinizada por insectos. Hospedero de las mariposas 'Frotadora-oscura común' (Calycopis caulonia), y 'Bellísima común' (Hypanartia bella).",
+                flowering: "Florece en primavera y fructifica de primavera a otoño.",
+                medicinal: "Afecciones respiratorias y digestivas."
+            },
+            tuminico: {
+                name: "Tumiñico",
+                scientificName: "Lycium cestroides",
+                description: "Arbusto o arbolito de hasta 5 m de altura. De ramas delgadas y hojas alternas. Las flores son tubulares, de color violeta intenso y rara vez solitarias. El fruto es una baya globosa de color rojizo-violeta oscuro a la madurez.",
+                pollination: "Es polinizada por picaflores, de allí su nombre vulgar 'rundún' que significa picaflor en quechua.",
+                flowering: "Florece de septiembre a mayo.",
+                medicinal: "Se utiliza para tratar el malestar estomacal y como cataplasmas para heridas."
+            },
+            verbenaroja: {
+                name: "Verbena roja o Margarita punzó",
+                scientificName: "Glandularia peruviana",
+                description: "Planta perenne, su parte aérea muere en invierno. Rastrera, de hojas opuestas. Flores rojas escarlatas, salen en grupitos. Se encuentra en zonas abiertas y soleadas, frecuentemente sobre bordes de caminos.",
+                pollination: "Es polinizada por la mariposa claudina (Tegosa claudina) y otros insectos (entomófila).",
+                flowering: "Florece en primavera y verano.",
+                medicinal: "Propiedades refrescantes y digestivas.",
+                reference: "Agüero, E. (2025). Plantas medicinales silvestres del centro de Argentina: guía para su reconocimiento y uso terapéutico (2ª ed.). Ecoval Ediciones"
+            }
