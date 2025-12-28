@@ -1,0 +1,331 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2d5016 0%, #4a7c2c 50%, #6b9d4a 100%);
+            color: #2c3e20;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #6b9d4a;
+        }
+
+        h1 {
+            color: #2d5016;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            color: #4a7c2c;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+        .intro {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 5px solid #4a7c2c;
+            line-height: 1.8;
+        }
+
+        .intro p {
+            margin-bottom: 15px;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .seasons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .season-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .season-card:hover {
+            transform: translateY(-5px);
+            border-color: #6b9d4a;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .season-icon {
+            font-size: 4em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .season-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2d5016;
+        }
+
+        .back-button {
+            background: #4a7c2c;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #2d5016;
+            transform: scale(1.05);
+        }
+
+        .species-link {
+            display: inline-block;
+            background: #6b9d4a;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 20px 0;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .species-link:hover {
+            background: #4a7c2c;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .season-content {
+            background: linear-gradient(135deg, #fff9e6 0%, #ffe6cc 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+            border-left: 5px solid #ff9800;
+        }
+
+        .season-content h2 {
+            color: #e65100;
+            margin-bottom: 15px;
+        }
+
+        .season-content p {
+            line-height: 1.8;
+            color: #5d4037;
+        }
+
+        .leaf-decoration {
+            text-align: center;
+            font-size: 2em;
+            color: #6b9d4a;
+            margin: 20px 0;
+        }
+
+        .species-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .species-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .species-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .species-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .species-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .species-info h3 {
+            color: #2d5016;
+            font-size: 1.3em;
+            margin-bottom: 8px;
+        }
+
+        .scientific-name {
+            font-style: italic;
+            color: #5d8c3a;
+            font-size: 1em;
+        }
+
+        @media (max-width: 600px) {
+            .seasons-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+
+        .species-detail {
+            animation: fadeIn 0.4s ease-in;
+        }
+
+        .species-images img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 12px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .species-info-box {
+            background: #eef6ea;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        /* Centrar nombre y nombre científico */
+        .species-detail h2,
+        .species-detail .scientific {
+            text-align: center;
+        }
+
+        /* Scientific en cursiva (refuerzo) */
+        .species-detail .scientific {
+            font-style: italic;
+            color: #5d8c3a;
+            margin-bottom: 15px;
+        }
+
+        /* Centrar info box */
+        .species-info-box {
+            text-align: center;
+        }
+
+        /* Opcional: centrar los íconos y texto con mejor spacing */
+        .species-info-box p {
+            margin: 6px 0;
+        }
+
+        /* Imágenes una al lado de la otra */
+        .species-images {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            /* para que en mobile bajen */
+        }
+
+        .species-images img {
+            max-width: 45%;
+            height: auto;
+        }
+
+        /* Centrar descripción de la especie */
+        .species-text {
+            text-align: center;
+        }
+
+        .species-text p {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
+            /* mejora la lectura */
+        }
+
+        .species-detail {
+            animation: fadeIn 0.4s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Centrar texto en TODAS las estaciones */
+        .intro .section .season-content {
+            text-align: center;
+        }
+
+        /* Limitar ancho de párrafos para mejor lectura */
+        .intro .section .season-content p {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 700px;
+            line-height: 1.6;
+        }
+        

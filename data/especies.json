@@ -1,0 +1,48 @@
+[
+  {
+    "id": "blanquillo",
+    "name": "Blanquillo",
+    "scientific": "Sebastiania commersoniana",
+    "images": [
+      "images/blanquillo/foto1.jpg",
+      "images/blanquillo/foto2.jpg"
+    ],
+    "description": [
+      "También llamado Palo de leche o Guindillo. Exuda un látex blanco y crece a la vera de ríos y arroyos.",
+      "Hojas simples con borde aserrado. En otoño se tiñe de rojos, naranjas y amarillos. Flores pequeñas amarillentas."
+    ],
+    "pollination": "Es polinizada por insectos",
+    "flowering": "Florece en primavera y verano",
+    "medicinal": "Antiséptico externo y analgésico"
+  },
+  {
+    "id": "chanar",
+    "name": "Chañar",
+    "scientific": "Geoffroea decorticans",
+    "images": [
+      "images/chanar/foto1.jpg",
+      "images/chanar/foto2.jpg"
+    ],
+    "description": [
+      "Árbol pequeño a mediano, de 6 a 10 m de altura. La característica más distintiva es su corteza exfoliante, la cuál se va desprendiendo en láminas parduscas, que dejan a la vista la nueva corteza verde brillante y de tonos intermedios, entre naranjas y amarillos. Raíces gemíferas (generan brotes que permiten a la planta crear bosquecitos alrededor). Flores perfectas en racimos amarillas con estrías anaranjadas, vistosas y perfumadas. El fruto es una baya globosa lisa y brillante, anaranjado rojizo en la madurez y dulce. De fruto comestible, de los cuáles se extrae el famoso arrope."
+    ],
+    "pollination": "Polinizada por mariposas y abejas",
+    "flowering": "Florece en primavera",
+    "medicinal": "Afecciones respiratorias y tos"
+  },
+    {
+    "id": "cina cina",
+    "name": "cina cina",
+    "scientific": "Geoffroea decorticans",
+    "images": [
+      "images/cina_cina/foto1.jpg",
+      "images/chanar/foto2.jpg"
+    ],
+    "description": [
+      "Árbol pequeño a mediano, de 6 a 10 m de altura. La característica más distintiva es su corteza exfoliante, la cuál se va desprendiendo en láminas parduscas, que dejan a la vista la nueva corteza verde brillante y de tonos intermedios, entre naranjas y amarillos. Raíces gemíferas (generan brotes que permiten a la planta crear bosquecitos alrededor). Flores perfectas en racimos amarillas con estrías anaranjadas, vistosas y perfumadas. El fruto es una baya globosa lisa y brillante, anaranjado rojizo en la madurez y dulce. De fruto comestible, de los cuáles se extrae el famoso arrope."
+    ],
+    "pollination": "Polinizada por mariposas y abejas",
+    "flowering": "Florece en primavera",
+    "medicinal": "Afecciones respiratorias y tos"
+  }
+]
