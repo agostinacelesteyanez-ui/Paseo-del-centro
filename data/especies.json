@@ -33,7 +33,7 @@
   },
   {
     "id": "cina_cina",
-    "name": "cina cina",
+    "name": "Cina Cina",
     "scientific": "Geoffroea decorticans",
     "images": [
       "images/cina_cina/foto1.jpg",
@@ -270,4 +270,5 @@
     "flowering": "Florece en primavera y verano.",
     "medicinal": "Propiedades refrescantes y digestivas."
   }
+
 ]
