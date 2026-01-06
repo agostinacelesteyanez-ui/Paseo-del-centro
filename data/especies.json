@@ -254,14 +254,14 @@
     "flowering": "Florece de septiembre a mayo.",
     "medicinal": "Se  utiliza para tratar el malestar estomacal y como cataplasmas para heridas."
   },
-    {
-    "id": "verbena_roja",
+  {
+    "id": "margarita_punzo",
     "name": "Verbena roja o Margarita punzó",
     "scientific": "Glandularia peruviana",
     "images": [
-      "images/verbena_roja/foto1.jpg",
+      "images/margarita_punzo/foto1.jpg",
 
-      "images/verbena_roja/foto2.jpg"
+      "images/margarita_punzo/foto2.jpg"
     ],
     "description": [
       "Planta perenne, su parte aérea muere en invierno. Rastrera, de hojas opuestas. Flores rojas escarlatas, salen en grupitos. Se encuentra en zonas abiertas y soleadas, frecuentemente sobre bordes de caminos."
