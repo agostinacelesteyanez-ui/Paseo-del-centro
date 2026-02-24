@@ -315,12 +315,15 @@
             }
 
             .site-title {
-                flex-direction: column;
-                gap: 0;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 0.4em;
             }
 
             .site-title .title-icon {
-                display: block;
+                display: inline-block;
             }
 
             .site-title .title-words {
