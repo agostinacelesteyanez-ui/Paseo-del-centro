@@ -39,17 +39,17 @@
         }
 
         .header-logo {
-            height: 50px;
+            height: clamp(35px, 8vw, 55px);
             width: auto;
             object-fit: contain;
         }
 
         .header-logo-municipalidad {
-            max-height: 55px;
+            max-height: clamp(38px, 8.5vw, 55px);
         }
 
         .header-logo-reserva {
-            max-height: 45px;
+            max-height: clamp(32px, 7vw, 45px);
         }
 
         h1 {
