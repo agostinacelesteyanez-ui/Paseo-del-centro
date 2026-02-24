@@ -17,12 +17,41 @@ document.addEventListener("DOMContentLoaded", () => {
     loadSection("especies-section", "secciones/especies.html");
 
     loadSpeciesData();
+    initCarouselDelegation();
 });
+
+function initCarouselDelegation() {
+    document.getElementById("species-details-container").addEventListener("click", (e) => {
+        const carousel = e.target.closest(".species-carousel");
+        if (!carousel) return;
+
+        const slides = carousel.querySelectorAll(".carousel-slide");
+        const dots = carousel.querySelectorAll(".carousel-dot");
+        const total = slides.length;
+        let current = [...slides].findIndex(s => s.classList.contains("active"));
+        if (current < 0) current = 0;
+
+        if (e.target.classList.contains("carousel-prev")) {
+            current = (current - 1 + total) % total;
+        } else if (e.target.classList.contains("carousel-next")) {
+            current = (current + 1) % total;
+        } else if (e.target.classList.contains("carousel-dot")) {
+            current = parseInt(e.target.dataset.index, 10);
+        } else {
+            return;
+        }
+
+        slides.forEach((s, i) => s.classList.toggle("active", i === current));
+        dots.forEach((d, i) => d.classList.toggle("active", i === current));
+    });
+}
 
 
 /* =========================
    NAVEGACIÓN
 ========================= */
+
+let speciesGridScrollPosition = 0;
 
 function hideAllSections() {
     document.querySelectorAll(".section").forEach(sec => {
@@ -49,9 +78,11 @@ function showMain() {
 function showSpecies() {
     hideAllSections();
     document.getElementById("especies-section").classList.add("active");
+    window.scrollTo({ top: speciesGridScrollPosition, behavior: "smooth" });
 }
 
 function showSpeciesDetail(id) {
+    speciesGridScrollPosition = window.scrollY;
     hideAllSections();
 
     let detail = document.getElementById(`detail-${id}`);
@@ -62,6 +93,7 @@ function showSpeciesDetail(id) {
     }
 
     detail.classList.add("active");
+    window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function createPlaceholderSpecies(id) {
@@ -124,10 +156,21 @@ function createSpeciesDetail(s) {
             <h2>${s.name}</h2>
             <p class="scientific">(${s.scientific})</p>
 
-            <div class="species-images">
-                ${s.images.map(img => `
-                    <img src="${img}" alt="${s.name}">
-                `).join("")}
+            <div class="species-carousel" data-species-id="${s.id}">
+                <button class="carousel-btn carousel-prev" aria-label="Anterior">‹</button>
+                <div class="carousel-viewport">
+                    <div class="carousel-track">
+                        ${s.images.map((img, i) => `
+                            <div class="carousel-slide ${i === 0 ? 'active' : ''}">
+                                <img src="${img}" alt="${s.name}">
+                            </div>
+                        `).join("")}
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-next" aria-label="Siguiente">›</button>
+                <div class="carousel-dots">${s.images.map((_, i) => `
+                    <button class="carousel-dot ${i === 0 ? 'active' : ''}" data-index="${i}" aria-label="Ir a foto ${i + 1}"></button>
+                `).join("")}</div>
             </div>
 
             <div class="species-text">
