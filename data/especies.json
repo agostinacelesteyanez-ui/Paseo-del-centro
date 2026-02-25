@@ -6,7 +6,8 @@
     "images": [
       "images/achira/foto1.jpg",
 
-      "images/achira/foto2.jpg"
+      "images/achira/foto2.jpg",
+      "images/achira/achira.jpg"
     ],
     "description": [
       "Planta herbácea y perenne. Las hojas son grandes y elípticas. El fruto es una cápsula. Propia de zonas tropicales y subtropicales de América. Se halla en sitios húmedos, por lo general, en cercanías de cursos de agua. Sus flores se disponen en racimos de color rojo o borravino. Su parte subterránea es comestible."
@@ -472,3 +473,4 @@
   }
 
 ]
+
