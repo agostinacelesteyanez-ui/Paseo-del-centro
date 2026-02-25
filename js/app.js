@@ -71,6 +71,7 @@ function showSeason(season) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 function showMain() {
+    speciesGridScrollPosition = 0;
     hideAllSections();
     document.getElementById("main-section").classList.add("active");
 }
