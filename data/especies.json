@@ -6,11 +6,10 @@
     "images": [
       "images/achira/foto1.jpg",
 
-      "images/achira/foto2.jpg",
-      "images/achira/achira.jpg"
+      "images/achira/foto2.jpg"
     ],
     "description": [
-      "Planta herbácea y perenne. Las hojas son grandes y elípticas. El fruto es una cápsula. Propia de zonas tropicales y subtropicales de América. Se halla en sitios húmedos, por lo general, en cercanías de cursos de agua. Sus flores se disponen en racimos de color rojo o borravino. Su parte subterránea es comestible."
+      "Planta herbácea y perenne, propia de las zonas tropicales y subtropicales de América. Crece en ambientes húmedos, generalmente en las cercanías de cursos de agua. Presenta hojas grandes y elípticas, y sus flores, de color rojo o borravino, se disponen en vistosos racimos. El fruto es una cápsula y su parte subterránea es comestible."
     ],
     "pollination": "Es polinizada principalmente por el picaflor barbijo (Heliomaster furcifer).",
     "flowering": "Florece desde diciembre a abril.",
@@ -23,14 +22,14 @@
     "images": [
       "images/alecrim_de_campo/foto1.jpg",
       "images/alecrim_de_campo/foto2.jpg",
-      "images/alecrim_de_campo/foto3.jpg",
-      "images/alecrim_de_campo/alecrim_de_campo.jpg"
+      "images/alecrim_de_campo/foto3.jpg"
     ],
     "description": [
-      "Arbusto perenne, erecto de hasta 2m de altura. Follaje verde claro, muy ramificado. Produce racimos de flores lilas. Prefiere pleno sol, aunque se adapta a semisombra. Sus frutos son una cápsula pequeña algodonosa que contienen las semillas como pelitos."
+      "Se trata de un arbusto perenne, erecto, que puede alcanzar hasta los 2 metros de altura. Presenta un follaje verde claro y muy ramificado. Produce racimos de flores lilas y prefiere ubicaciones a pleno sol, aunque también se adapta a la semisombra. Sus frutos son pequeñas cápsulas algodonosas que contienen las semillas, rodeadas de finos pelillos."
     ],
     "pollination": "Es polinizada por abejas, abejorros y mariposas.",
-    "flowering": "Florece desde noviembre a febrero."
+    "flowering": "Florece desde noviembre a febrero.",
+    "medicinal":  "No se registran usos medicinales tradicionales para esta especie."
   },
   {
     "id": "blanquillo",
@@ -38,13 +37,12 @@
     "scientific": "Sebastiania commersoniana",
     "images": [
       "images/blanquillo/foto1.jpg",
-      "images/blanquillo/foto2.jpg",
-      "images/blanquillo/blanquillo.jpg"  
+      "images/blanquillo/foto2.jpg"
     ],
     "description": [
       "También llamado Palo de leche o Guindillo. De sus heridas abiertas exuda un látex blanco, de consistencia lechosa, de dónde le viene su nombre vulgar.",
-      " Crece a la vera de ríos y arroyos, y en las quebradas húmedas.",
-      "La hoja del Guindillo es simple con borde  ligeramente aserrado, en otoño y en invierno, las hojas se tiñen de varios tonos de rojos, naranjas y amarillos. Cada rama termina con una espina por punta. Las flores del Blanquillo están agrupadas en racimos, son amarillentas y diminutas. El Fruto es una cápsula globosa de color castaño a la madurez."
+      " Crece a la vera de ríos y arroyos, y en las quebradas húmedas. La hoja es simple con borde  ligeramente aserrado, en otoño y en invierno, las hojas se tiñen de mil tonos de rojos, naranjas y amarillos.",
+      "Cada rama termina con una espina por punta. Las flores están agrupadas en racimos, son amarillentas y diminutas. El Fruto es una cápsula globosa de color castaño al madurar."
     ],
     "pollination": "Es polinizada principalmente por abejas",
     "flowering": "Florece en primavera y verano",
@@ -56,8 +54,7 @@
     "scientific": "Anredera cordifolia",
     "images": [
       "images/brotal/foto1.jpg",
-      "images/brotal/foto2.jpg",
-      "images/brotal/brotal.jpg" 
+      "images/brotal/foto2.jpg"
     ],
     "description": [
       "Enredadera perenne de hasta 6 m de altura, de rápido crecimiento y flores como espigas péndulas de color blanco y perfumadas. Sus hojas, verde brillante, y los tubérculos son comestibles. El fruto es carnoso y  globoso. Fructifica durante el otoño. "
@@ -73,8 +70,7 @@
     "scientific": "Atriplex undulata",
     "images": [
       "images/cachiyuyo/foto1.jpg",
-      "images/cachiyuyo/foto2.jpg",
-      "images/cachiyuyo/cachiyuyo.jpg"
+      "images/cachiyuyo/foto2.jpg"
     ],
     "description": [
       "Planta arbustiva, leñosa, de hasta 1m de alto, profundamente ramificada. Hojas alternas planas. Inflorescencia dispuesta en espigas sobre ramas terminales. Flores de color amarillento con forma redondeada, dispuestas sobre las ramas secundarias. "
@@ -90,8 +86,7 @@
     "scientific": "Dicliptera squarrosa",
     "images": [
       "images/canario_rojo/foto1.jpg",
-      "images/canario_rojo/foto2.jpg",
-      "images/canario_rojo/canario_rojo.jpg" 
+      "images/canario_rojo/foto2.jpg"
     ],
     "description": [
       "Planta herbácea perenne que crece asociada a suelos alterados o banquinas. Sus hojas son simples y su flor es tubular de color rojo. Su fruto es una cápsula que se puede ver en verano y otoño."
@@ -109,14 +104,13 @@
     "images": [
       "images/chanar/foto1.jpg",
       "images/chanar/foto2.jpg",
-      "images/chanar/foto3.jpg",
-      "images/chanar/chanar.jpg" 
+      "images/chanar/foto3.jpg"
     ],
     "description": [
       "Árbol pequeño a mediano, de 6 a 10 m de altura. La característica más distintiva es su corteza exfoliante, la cuál se va desprendiendo en láminas parduscas, que dejan a la vista la nueva corteza verde brillante y de tonos intermedios, entre naranjas y amarillos. Raíces gemíferas (generan brotes que permiten a la planta crear bosquecitos alrededor). Flores perfectas en racimos amarillas con estrías anaranjadas, vistosas y perfumadas. El fruto es una baya globosa lisa y brillante, anaranjado rojizo en la madurez y dulce. De fruto comestible, de los cuáles se extrae el famoso arrope."
     ],
-    "pollination": "Polinizada por mariposas y en especial, por abejas",
-    "flowering": "Florece en primavera",
+    "pollination": "Polinizada por mariposas y en especial, por abejas.",
+    "flowering": "Florece en primavera.",
     "medicinal": "Utilizado para afecciones respiratorias, para la tos y antiasmático."
   },
   {
@@ -126,8 +120,7 @@
     "images": [
       "images/cina_cina/foto1.jpg",
       "images/cina_cina/foto2.jpg",
-      "images/cina_cina/foto3.jpg",
-       "images/cina_cina/cina_cina.jpg"
+      "images/cina_cina/foto3.jpg"
     ],
     "description": [
       "Árbol de hasta 8 m de altura, semicaducifolio, de fuste corto y copa aparasolada. Sus ramas algo zigzagueantes son verdes y se van agrietando mientras maduran, tienen tres espinas por nudo. Las flores son hermafroditas, de cinco pétalos, de los cuales cuatro son amarillos y uno, el superior, medio rojizo.  El fruto es una legumbre, dura de hasta 10 cm de largo, algo curva, persiste bastante en la planta y se abre al madurar. Hay pocas semillas por frutos. Su chaucha y semillas son comestibles cuando están inmaduras. Es nativa del norte cordobés, no de nuestra ecorregión."
@@ -143,15 +136,15 @@
     "scientific": "Pappophorum pappiferum",
     "images": [
       "images/cortadera/foto1.jpg",
-      "images/cortadera/foto2.jpg",
-      "images/cortadera/cortadera.jpg" 
+      "images/cortadera/foto2.jpg"
     ],
     "description": [
-      "Hierba perenne, de ciclo estival. Planta erecta, cañas generalmente de hasta 1,5m de altura, a veces ramificadas. Hojas con láminas planas. Inflorescencia como una espiga sedosa color blanquecino-plateado o violácea. Su fruto es un grano seco alargado, podemos verlo en otoño."
+      "Hierba perenne, de ciclo estival. Planta erecta, generalmente de hasta 1,5m de altura, a veces ramificadas. Hojas con láminas planas. Inflorescencia como una espiga sedosa color blanquecino-plateado o violácea. Su fruto es un grano seco alargado, podemos verlo en otoño."
 
     ],
     "pollination": "Es polinizada principalmente por la acción del viento.",
-    "flowering": "Florece en verano."
+    "flowering": "Florece en verano.",
+    "medicinal":  "No se registran usos medicinales tradicionales para esta especie."
   },
 {
     "id": "croton",
@@ -160,14 +153,13 @@
     "images": [
       "images/croton/foto1.jpg",
       "images/croton/foto2.jpg",
-      "images/croton/foto3.jpg",
-       "images/croton/croton.jpg"
+      "images/croton/foto3.jpg"
     ],
     "description": [
       "Subarbusto perenne de hasta 1,5m de altura, predominante en el sotobosque serrano. Densamente pubescente (peludo). Las flores son blanquecinas y están dispuestas en racimos. El fruto es una cápsula. Las hojas en otoño toman una coloración anaranjada y persisten un tiempo en la planta."
 
     ],
-    "pollination": "Es polinizada por mariposas, abejas sociales, abejas solitarias, moscas, varias especies de avispas, escarabajos e incluso hormigas.",
+    "pollination": "Es polinizada por mariposas, abejas, moscas, avispas y polillas.",
     "flowering": "Florece desde octubre a mayo.",
     "medicinal": "Es utilizada para afecciones respiratorias y como purgante."
   },
@@ -177,8 +169,7 @@
     "scientific": "Malvastrum coromandelianum",
     "images": [
       "images/escoba_dura/foto1.jpg",
-      "images/escoba_dura/foto2.jpg",
-       "images/escoba_dura/escoba_dura.jpg"
+      "images/escoba_dura/foto2.jpg"
     ],
     "description": [
       "Subarbusto perenne de hasta 2 m de altura. Tallo erecto, difícil de cortar, lo que indica que posee fibras resistentes (de allí su nombre vulgar). Hojas verdes  ovaladas, a veces, romboidales y dentadas. Flores amarillas solitarias con 5 pétalos. Fruto aplanado."
@@ -195,8 +186,7 @@
     "images": [
       "images/espina_colorada/foto1.jpg",
       "images/espina_colorada/foto2.jpg",
-      "images/espina_colorada/foto3.jpg",
-      "images/espina_colorada/espina_colorada.jpg"
+      "images/espina_colorada/foto3.jpg"
     ],
     "description": [
       "Hierba perenne de hasta 1 m de altura de tallo leñoso con ramas cubierta de pelos, caracterizada por poseer espinas punzantes, pardas claras, recubriendo tallo, ramas y hojas. Flores azuladas a blancas con centro amarillo. El fruto es una baya globosa roja carnosa. Los frutos maduros son comestibles."
@@ -212,8 +202,7 @@
     "images": [
       "images/espinillo/foto1.jpg",
 
-      "images/espinillo/foto2.jpg",
-       "images/espinillo/espinillo.jpg"
+      "images/espinillo/foto2.jpg"
     ],
     "description": [
       "Arbusto o árbol espinoso de hasta 6 m de altura y 20-40 cm de ancho de tronco. La copa es más o menos hemisférica. Fruto en forma de vaina de 4-10cm de largo de sección cilíndrica con el extremo punzante. Flores amarillo anaranjadas muy pequeñas y perfumadas. Especie pionera, colonizadora de suelos deteriorados, es muy buena como recuperadora de la tierra. "
@@ -229,11 +218,10 @@
     "images": [
       "images/flor_de_patito/foto1.jpg",
       "images/flor_de_patito/foto2.jpg",
-      "images/flor_de_patito/foto3.jpg",
-       "images/flor_de_patito/flor_de_patito.jpg"
+      "images/flor_de_patito/foto3.jpg"
     ],
     "description": [
-      "Enredadera de hasta 3m de alto, ramas numerosas. Puede extenderse sobre el suelo o trepar si encuentra soportes. Hojas verde oscuro con forma de corazón. Esta especie es famosa por sus flores, que son solitarias de aprox. 4cm de largo con forma tubular verdoso-amarillento y el centro purpúreo. Los frutos maduros y abiertos penden de un péndulo floral asemejándose a canastillas. "
+      "Enredadera de hasta 3 m de alto, ramas numerosas. Puede extenderse sobre el suelo o trepar si encuentra soportes. Hojas verde oscuro con forma de corazón. Esta especie es famosa por sus flores, que son solitarias de aprox. 4 cm de largo con forma tubular verdoso-amarillento y el centro purpúreo. Los frutos maduros y abiertos cuelgan de un péndulo floral asemejándose a canastillas. "
 
     ],
     "pollination": "Es polinizada por moscas y abejas. Hospedadora de la mariposa Borde de oro (Battus polydamas).",
@@ -246,15 +234,15 @@
     "scientific": "Jarava ichu",
     "images": [
       "images/ichu/foto1.jpg",
-      "images/ichu/foto2.jpg",
-       "images/ichu/ichu.jpg"
+      "images/ichu/foto2.jpg"
     ],
     "description": [
       "Hierba (pasto) perenne de hasta 120cm de altura, de crecimiento otoño invernal. Resistente al frío y a la sequía. Forma matas de porte mediano con follaje de textura media, vistoso con hojas rígidas y erectas. Es un protector de suelos."
 
     ],
     "pollination": "Es polinizada por abejas y otros insectos.",
-    "flowering": "Florece en primavera."
+    "flowering": "Florece en primavera.",
+    "medicinal":  "No se registran usos medicinales tradicionales para esta especie."
   },
 
   {
@@ -264,11 +252,10 @@
     "images": [
       "images/lagana_de_perro/foto1.jpg",
       "images/lagana_de_perro/foto2.jpg",
-      "images/lagana_de_perro/foto3.jpg",
-      "images/lagana_de_perro/lagana_de_perro.jpg"
+      "images/lagana_de_perro/foto3.jpg"
     ],
     "description": [
-      "Arbusto de hasta 2 m de alto perenne  con hojas bipinnadas. Las flores se encuentran en racimos, cada flor con cinco pétalos amarillos con 10 estambres rojos largos y llamativos . Las vainas están densamente cubiertas de pelos glandulares cortos y rojos."
+      "Arbusto de hasta 2 m de alto perenne  con hojas bipinnadas. Las flores se encuentran en racimos, cada flor posee cinco pétalos amarillos y 10 estambres rojos largos y llamativos . Las vainas están densamente cubiertas de pelos glandulares cortos y rojos."
     ],
     "pollination": "Polinizada por mariposas nocturnas por sus singulares flores amarillas con largos estambres. Otros insectos buscan su néctar, pero no las polinizan.",
     "flowering": "Florece de noviembre hasta febrero.",
@@ -281,13 +268,12 @@
     "images": [
       "images/malva/foto1.jpg",
       "images/malva/foto2.jpg",
-      "images/malva/foto3.jpg",
-       "images/malva/malva.jpg"
+      "images/malva/foto3.jpg"
     ],
     "description": [
       "Esta especie tiene valor ornamental, con flores que permanecen varios días abiertas. Sus hojas acorazonadas de gran tamaño están cubiertas de tricomas o pelos que le confieren gran suavidad al tacto."
     ],
-    "pollination": "Atrae a pequeños escarabajos para su polinización. Sus flores son visitadas por mariposas. La especie es hospedera de la mariposa Festoneada menor",
+    "pollination": "Atrae a pequeños escarabajos para su polinización. Sus flores son visitadas por mariposas. La especie es hospedera de la mariposa Festoneada menor (Antigonus liborius).",
     "flowering": "Florece de primavera a otoño.",
     "medicinal": "Es utilizada para problemas respiratorios y digestivos. "
   },
@@ -298,8 +284,7 @@
     "images": [
       "images/mandevilla/foto1.jpg",
       "images/mandevilla/foto2.jpg",
-      "images/mandevilla/foto3.jpg",
-       "images/mandevilla/mandevilla.jpg"
+      "images/mandevilla/foto3.jpg"
     ],
     "description": [
       "Enredadera perenne que posee tallos que producen látex. Las hojas son grandes, redondas, con densa cubierta de pelos cortos. Florece en racimos de flores blanco-verdosas. Los frutos son secos y maduran en otoño."
@@ -317,8 +302,7 @@
     "images": [
       "images/palo_amarillo/foto1.jpg",
 
-      "images/palo_amarillo/foto2.jpg",
-       "images/palo_amarillo/palo_amarillo.jpg"
+      "images/palo_amarillo/foto2.jpg"
     ],
     "description": [
       "Arbusto aromático de 1-3 m de altura. Las flores son blancas y se disponen en espigas multiflorales. Sus hojas pueden variar de tamaño y forma, según las condiciones y etapa de crecimiento. Frecuente en las serranías cordobesas. "
@@ -333,15 +317,15 @@
     "scientific": "Eustachys distichophylla",
     "images": [
       "images/paraguita/foto1.jpg",
-      "images/paraguita/foto2.jpg",
-       "images/paraguita/paraguita.jpg"
+      "images/paraguita/foto2.jpg"
     ],
     "description": [
       "Hierba perenne, no tolera la sombra y es muy sensible a las heladas. Crece en suelos húmedos y pedregosos. En zonas templadas es más efectiva su reproducción mediante semillas. Planta de hasta 1,5m de altura. Hojas con láminas planas. Inflorescencia de 10 a 18 cm de longitud, formadas por racimos péndulos castaños o dorados (Descritas como forma paragüas o plumeros). Fructifica desde la primavera hasta que comienzan las primeras heladas. Protector de suelos."
 
     ],
     "pollination": "Es polinizada principalmente por la acción del viento.",
-    "flowering": "Florece desde primavera hasta el comienzo de las primeras heladas."
+    "flowering": "Florece desde primavera hasta el comienzo de las primeras heladas.",
+    "medicinal":  "No se registran usos medicinales tradicionales para esta especie."
   },
 
   {
@@ -351,13 +335,12 @@
     "images": [
       "images/pasionaria/foto1.jpg",
       "images/pasionaria/foto2.jpg",
-      "images/pasionaria/foto3.jpg",
-       "images/pasionaria/pasionaria.jpg"
+      "images/pasionaria/foto3.jpg"
     ],
     "description": [
       "Enredadera perenne, arbustiva, trepadora de hasta 10m de largo. Sus flores son solitarias y en la corona posee filamentos que son azul en el extremo y la base, y blancas en el centro. El fruto es una baya anaranjada comestible. Prefiere sitios más bien húmedos en bosques o zonas urbanas.  "
     ],
-    "pollination": "Polinizada por abejorros, abejas y mariposas. La mariposa espejito usa a la planta para poner sus larvas (hospedera).",
+    "pollination": "Polinizada por abejorros, abejas y mariposas. La mariposa espejito (Agraulis vanillae) usa a la planta para poner sus larvas (hospedera).",
     "flowering": "Florece de septiembre a junio.",
     "medicinal": "Se utiliza para aplacar estados de ansiedad e insomnio."
   },
@@ -368,8 +351,7 @@
     "images": [
       "images/romerillo/foto1.jpg",
 
-      "images/romerillo/foto2.jpg",
-       "images/romerillo/romerillo.jpg"
+      "images/romerillo/foto2.jpg"
     ],
     "description": [
       "Su nombre común es Romerillo ya que presenta un aspecto similar al popular Romero. Es una planta dioica, es decir,hay plantas femeninas y plantas masculinas. Arbustos de 1 a 5 m de altura muy ramificado. Hojas lineares, agudas en el ápice, enteras en el margen, uninervias. Produce abundante floración de color amarillo. Es una especie a tener en cuenta como restauradora de suelos."
@@ -385,8 +367,7 @@
     "images": [
       "images/sacha_huasca/foto1.jpg",
       "images/sacha_huasca/foto2.jpg",
-      "images/sacha_huasca/foto3.jpg",
-       "images/sacha_huasca/sacha_huasca.jpg"
+      "images/sacha_huasca/foto3.jpg"
     ],
     "description": [
       "Enredadera que crece apoyada sobre árboles de porte mediano y grande del Bosque Serrano. Perenne de tronco grueso y corteza rugosa. Flores solitarias tubulares bilabiadas, levemente curvas de color rojo intenso. El fruto es una cápsula negro-rojiza, lisa alargada."
@@ -402,8 +383,7 @@
     "images": [
       "images/sangre_de_toro/foto1.jpg",
       "images/sangre_de_toro/foto2.jpg",
-      "images/sangre_de_toro/foto3.jpg",
-       "images/sangre_de_toro/sangre_de_toro.jpg"
+      "images/sangre_de_toro/foto3.jpg"
     ],
     "description": [
       "Planta comúnmente herbácea, con hojas alternas, simples. Las flores son pequeñas, perfectas y se disponen en racimos o espigas. El fruto es variable pero frecuentemente es una baya globosa de color rojo intenso. Planta muy ramificada,  típica del sotobosque, requiere sombra para su desarrollo. Las flores son blancas o rosadas y se disponen en racimos largos."
@@ -419,8 +399,7 @@
     "images": [
       "images/santa_lucia/foto1.jpg",
 
-      "images/santa_lucia/foto2.jpg",
-       "images/santa_lucia/santa_lucia.jpg"
+      "images/santa_lucia/foto2.jpg"
     ],
     "description": [
       "Hierba perenne de hasta 50cm de altura. Hojas simples, alternas y ovaladas. Posee flores perfectas  azules muy vistosas, con centro amarillo, abren por la mañana y viven sólo unas pocas horas. El fruto es una cápsula. En Córdoba crece a la sombra húmeda del bosque serrano y espinal."
@@ -437,8 +416,7 @@
       "images/tala/foto1.jpg",
 
       "images/tala/foto2.jpg",
-      "images/tala/foto3.jpg",
-       "images/tala/tala.jpg"
+      "images/tala/foto3.jpg"
     ],
     "description": [
       "Planta arbórea o arbustiva dotado de fuertes espinas (aunque no son de gran tamaño). Es uno de los protagonistas principales de los espinales. De follaje caduco, porte irregular y ramas zigzagueantes, alcanza entre 4 y 12 metros de altura. Su rusticidad lo convierte en una especie extraordinariamente resistente. Las flores son de color verde amarillento y son bastante pequeñas. Las hojas son ovaladas con punta aguda con pocos dientes sobre el margen; los frutos dulces y comestibles son consumidos por aves que dispersan las semillas."
@@ -453,8 +431,7 @@
     "scientific": "Tradescantia fluminensis",
     "images": [
       "images/tradescantia/foto1.jpg",
-      "images/tradescantia/foto2.jpg",
-       "images/tradescantia/tradescantia.jpg"
+      "images/tradescantia/foto2.jpg"
     ],
     "description": [
       "Herbácea rastrera y perenne de hasta 1 m de alto. Inflorescencias blancas sin perfume. Hojas redondeadas en la base y puntiagudas en el extremo, sin pelo, carnosas y de un color verde oscuro muy lustroso. Habita ambientes sombreados y húmedos."
@@ -472,13 +449,12 @@
     "images": [
       "images/tuminico/foto1.jpg",
       "images/tuminico/foto2.jpg",
-      "images/tuminico/foto3.jpg",
-       "images/tuminico/tuminico.jpg"
+      "images/tuminico/foto3.jpg"
     ],
     "description": [
       "Arbusto o arbolito de hasta 5 m de altura. De ramas delgadas y hojas alternas. Las flores son tubulares, de color violeta intenso y rara vez solitarias. El fruto es una baya globosa de color rojizo-violeta oscuro a la madurez ."
     ],
-    "pollination": "Es polinizada por picaflores, de allí su nombre vulgar “rundún” que significa picaflor en quechua.",
+    "pollination": "Es polinizada por picaflores, de allí se origina su nombre vulgar “rundún” que significa picaflor en quechua.",
     "flowering": "Florece de septiembre a mayo.",
     "medicinal": "Se  utiliza para tratar el malestar estomacal y como cataplasmas para heridas."
   },
@@ -489,8 +465,7 @@
     "images": [
       "images/margarita_punzo/foto1.jpg",
 
-      "images/margarita_punzo/foto2.jpg",
-       "images/margarita_punzo/margarita_punzo.jpg"
+      "images/margarita_punzo/foto2.jpg"
     ],
     "description": [
       "Planta perenne, su parte aérea muere en invierno. Rastrera, de hojas opuestas. Flores rojas escarlatas, salen en grupitos. Se encuentra en zonas abiertas y soleadas, frecuentemente sobre bordes de caminos."
@@ -499,7 +474,4 @@
     "flowering": "Florece en primavera y verano.",
     "medicinal": "Propiedades refrescantes y digestivas."
   }
-
 ]
-
-

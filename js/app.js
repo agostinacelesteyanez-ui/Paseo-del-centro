@@ -134,6 +134,11 @@ function createPlaceholderSpecies(id) {
    ESPECIES (JSON)
 ========================= */
 
+function formatScientificNames(text) {
+    if (!text) return '';
+    return text.replace(/\(([A-Z][a-z]+ [a-z][a-z-]*(?:\s+[a-z][a-z-]*)*)\)/g, '<em>($1)</em>');
+}
+
 function loadSpeciesData() {
     fetch("data/especies.json")
         .then(res => res.json())
@@ -175,12 +180,12 @@ function createSpeciesDetail(s) {
             </div>
 
             <div class="species-text">
-                ${s.description.map(p => `<p>${p}</p>`).join("")}
+                ${s.description.map(p => `<p>${formatScientificNames(p)}</p>`).join("")}
 
                 <div class="species-info-box">
-                    <p>🦋 ${s.pollination}</p>
-                    <p>🌼 ${s.flowering}</p>
-                    <p>⚕ <strong>Uso medicinal:</strong> ${s.medicinal}</p>
+                    <p>🦋 ${formatScientificNames(s.pollination)}</p>
+                    <p>🌼 ${formatScientificNames(s.flowering)}</p>
+                    <p>⚕ <strong>Uso medicinal:</strong> ${formatScientificNames(s.medicinal)}</p>
                 </div>
             </div>
         </div>
