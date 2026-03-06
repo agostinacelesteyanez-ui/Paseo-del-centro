@@ -307,6 +307,20 @@
 
             .header-logos {
                 width: 100%;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+            }
+
+            .header-logo-municipalidad {
+                max-height: 36px;
+                flex-shrink: 1;
+                min-width: 0;
+            }
+
+            .header-logo-reserva {
+                max-height: 36px;
+                flex-shrink: 1;
+                min-width: 0;
             }
 
             h1 {
