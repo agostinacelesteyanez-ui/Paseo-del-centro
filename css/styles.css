@@ -50,7 +50,7 @@
 
         .header-logo-reserva {
             max-height: clamp(32px, 7vw, 45px);
-            filter: brightness(0) saturate(100%) invert(27%) sepia(98%) saturate(1000%) hue-rotate(88deg) brightness(95%) contrast(90%);
+           filter: brightness(0) saturate(100%);
         }
 
         h1 {
